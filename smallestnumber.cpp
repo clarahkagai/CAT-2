@@ -12,11 +12,13 @@ int main() {
 
     // Use switch-case to determine the smallest number
    
- switch (number) {
-        case (num2 < smallest):
+ switch (1) {
+        case(1) :
+        if (num2 < smallest)
             smallest = num2;
             break;
-        case (num3 < smallest):
+        case(2) :
+        if (num3 < smallest)
             smallest = num3;
             break;
         default:
